@@ -1,7 +1,7 @@
 body{
     margin: 0px;
     padding: 0px;
-    background-image: url("21421.jpg");
+    background-image: url("flat-lay-clipboards-with-copy-space.jpg");
     background-attachment: fixed;
     background-repeat: no-repeat;
     background-size:cover;
@@ -9,7 +9,7 @@ body{
     opacity: 0.8;
 }
 @media screen and(max-width:600px) {
-    body{background-color: white;}
+    body{background-color: rgb(241, 230, 230);}
 }
 .headline{
     height: 114px;
@@ -21,7 +21,7 @@ body{
 
 #result{
     font-size: 40px;
-    color:white;
+    color:rgb(48, 17, 171);
     margin-left: 30px;
     display: inline;
 }
@@ -39,7 +39,7 @@ body{
     width: 500px;
     position: absolute;
     top: 43%;
-    color: #fff;
+    color: #141313;
     font-size:20px ;
     display: inline;
     left:5%;
