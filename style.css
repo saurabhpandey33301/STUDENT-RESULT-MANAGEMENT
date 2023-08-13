@@ -1,307 +1,52 @@
 body{
-    margin: 0px;
-    padding: 0px;
-    background-image: url("21421.jpg");
-    background-attachment: fixed;
+    background-image: url("st.png");
     background-repeat: no-repeat;
-    background-size:cover;
-    background-position:center;
-    opacity: 0.8;
-}
-@media screen and(max-width:600px) {
-    body{background-color: rgb(241, 230, 230);}
-}
-.headline{
-    height: 114px;
-    width: 350px;
-    position: absolute;
-    top:28%;
-    left: 5%;
-}
-.block{
-   
-    margin-bottom: 100px;
-    margin-bottom: 100px;
-    padding-top: 200px;
-}
-#result{
-    font-size: 40px;
-    margin-left: 30px;
-    background-color: solid black;
-    display: inline;
-}
-
-#management{
-    font-size: 50px;
-    color:rgb(252, 0, 0);
-    position: relative;
-    margin-left:30px ;
-    display: inline;
-}
-
-.paragraph {
-    height: 400px;
-    width: 500px;
-    position: absolute;
-    top: 43%;
-    color: #141313;
-    font-size:20px ;
-    display: inline;
-    left:5%;
-}
-
-.loginbox{
-    width: 400px;
-    height: 440px;
-    background: #000;
-    color: #fff;
-    top: 25%;
-    left: 70%;
-    position:absolute;
-    box-sizing: border-box;
-    padding:60px 30px;
-}
-.loginlogo{
-    height: 100px; 
-    width: 100px;
-    border-radius: 50%;
-    position:absolute; 
-    top:-50px;
-    left:150px;
-}
-.loginbox h1{
-    margin: 0px;
-    padding: 0px;
-    text-align:center;
+    background-position: 550px 100px;
+    background-color: rgb(208, 252, 248);
     
 }
- .loginbox p{
-    font-weight:bold;
+.dabbao{
+    text-decoration: none;
 }
-.loginbox input{
-    margin-bottom: 10px;
-    width: 100%;
+.text{
+   
+    font-family: Arial, Helvetica, sans-serif;
+    width: 400px;
+    height: auto;
+    color: rgb(89, 83, 151);
+    font-size: 40px;
+    position:relative;
+    top: 10px;
+    left: 30px;
 
 }
-.loginbox input[type = "text"]{
-    border:none;
-    border-bottom: 1px solid #fff;
-    background: transparent;
-    outline: none;
-    height: 20px;
-    color: #fff;
-    font-size: 15px;
+.thought{
+   
+    width: 470px;
+    height: auto;
+    position:relative;
+    top: 100px;
+    left: 30px;
+    font-size: 28px;
+    /* border: 2px solid black; */
+    border-radius:20px;
 }
-.main{
-    display:flex;
-}
-.loginbox input[type="password"]{
-    border:none;
-    display:inline;
-    width: 100%;
-    border-bottom: 1px solid #fff;
-    background: transparent;
-    outline: none;
-    height: 20px;
-    color: #fff;
-    font-size: 15px;
-}
-.main2{
+.btn{
     display: flex;
+    /* border: 2px solid black; */
+    width: 40%;
+    height: 50px;
+    margin-top: 200px;
+    margin-left: 5%;
 }
-.loginbox input[type="submit"]{
-    border: none;
-    height: 30px;
-    background-color:red;
-    color: rgb(181, 170, 170);
-    font-size: 16px;
-    border-radius: 20px;
-    margin-top: 8px;
+.btn button{
+    margin: 0px 50px;
+    widows: 200px;
+    border: 3px solid rgb(52, 170, 160);
+    border-radius: 12px;
+    background: none;
 }
-.loginbox input[type="submit"]:hover
-{   
-    cursor: pointer;
-    background-color:#fff;
-    color:black;
-    font-size: bold;
-}
-#link1{
-    text-decoration: none;
-    color: white;
-    margin-top: 10px;
-    font-weight: bold;
-
-}
-#link2{
-    text-decoration: none;
-    color:white;
-    position: relative;
-    left: 135px;
-    margin-top: 10px;
-    font-weight: bold;
-    margin-right: 10px;
-}
-
-#link1:hover{
-     color:#d07f14;
-}
-#link2:hover{
-    color: #d07f14;
-}
-.createnew{
-    margin: 0px;
-    padding: 0px;
-    background: url(background1.jpg);
-    background-size:cover;
-}
-.createbox{
-    height: 480px;
-    width: 400px;
-    background-color:#fff;
-    position: absolute;
-    top: 23%;
-    left: 37%;
-    box-shadow: 8px 8px;
-}
-.loginlogo1{
-    height: 96px;
-    width: 96px;
-    position: absolute;
-    left: 40%;
-    top: -22px;
-}
-.createbox h2{
-    text-align: center;
-    padding-top: 15%;
-}
-
-.createbox p{
-    margin-left: 25px;
-    font-weight:bold;
-}
-.createbox input[type=text]{
-    height:32px;
-    width: 82%;
-    position: relative;
-    left: 25px;
-    border: none;
-    border-bottom: 1px solid black;
-    outline: none;
-    font-size: 14px;
-    font-weight: bold;
-}
-
-.createbox input[type=password]{
-    height:32px;
-    width: 82%;
-    position: relative;
-    left: 25px;
-    border: none;
-    border-bottom: 1px solid black;
-    outline: none;
-    font-size: 14px;
-    font-weight: bold;
-}
-
-
-.createbox input[type=submit]{
-    height: 30px;
-    width:50%;
-    position: relative;
-    left: 100px;
-    font-weight: bold;
-    font-size: 15px;
-    margin-top: 20px;
-    border: 1px solid black ;
-    border-radius: 20px;
-}
-
-.createbox input[type=submit]:hover{
-    cursor: pointer;
-    background-color: rgb(64, 90, 242);
-}
-
-#upbox{
-    margin: 0px;
-    padding: 0px;
-    background-image: url(background1.jpg);
-    background-size:cover;
-
-}
-.signupbox{
-    height:680px;
-    width: 400px;
-    background-color:#fff;
-    position: absolute;
-    top: 5%;
-    left: 35%;
-    box-shadow:8px 8px;
-}
-.signupbox p{
-   font-weight: bold;
-   position: relative;
-   left: 25px;
-}
-#loginlogo2{
-    height: 90px;
-    width: 90px;
-    position: absolute;
-    top: -20px;
-    left: 40%;
-}
-.signupbox h2{
-   position: relative;
-   margin-top:18%;
-   margin-left:40%;
-}
-.signupbox input{
-    border: none;
-    outline: none;
-    border-bottom:1px solid black;
-    height: 25px;
-    width: 85%;
-    position: relative;
-    color: black;
-    left: 15px;
-    margin: 5px;
-    font-size: 20px;
-    font-weight: bold;
-    font-size:15px;
-}
-.terms input{
-    height:15px;
-    position:absolute;
-    right: 80%;
-}
-
-.terms{
-    position: relative;
-    right: 70px;
-    margin-top: 8px;
-    margin-bottom: 5px;
-}
-.terms label{
-    position: relative;
-    left: 52%;
-}
-
-.signupbox button{
-   position: relative;
-   left: 15px;
-   top: 10px;
-   height: 30px;
-   width: 90%;
-   border: 1px solid black;
-   border-radius: 20px;
-   cursor: pointer;
-   font-size: 16px;
-   font-weight: bold;
-}
-.member{
-    position: relative;
-    left: 25%;
-    top:20px ;
-}
-.signupbox button:hover{
-    background-color: rgb(51, 94, 234);
+.btn button:hover{
+    box-shadow: 6px 6px 5px rgb(52, 170, 160);
+    
 }
