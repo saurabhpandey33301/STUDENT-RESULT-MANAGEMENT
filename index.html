@@ -1,46 +1,83 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Login Form</title>
-    <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
-</head>
-<body >
-    <!-- <div class="block">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
 
-        <div class="headline">
-            <h1 id="result">Student Result &</h1>
-            <h1 id="management">Management</h1>
-            <hr>
-        </div>
-        <div class="paragraph">
-            <p>This web Plateform  is helpful for students.</p>
-            <p>Students can check their result after filling details.</p>
-            <p>They will get more knowledge and study references regarding their study as well.</p>
-        </div>
-    </div> -->
-    <div class="loginbox">
-         <img src="avatar.png" class="loginlogo">
-         <h1>Login Here</h1>
-         <form>
-            <p>Gmail</p>
-            <div class="main">
-               <input type="text" placeholder="Enter Gmail">
-               <i class="fa fa-envelope" aria-hidden="true"></i>
-            </div>
-            <p>Password</p>
-            <div class="main2">
-                 <input type="password" placeholder="Enter Password">
-                 <i class="fa fa-eye-slash" aria-hidden="true"></i>
-            </div>
-            <input type ="submit" value="Login"><br>
-            <a id="link1" href="newpassword.html">Forgot Your Password?</a>
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
 
-            <a id="link2" href="signup.html">Sign up</a>
-            
-         </form>
-    </div>
-</body>
-</html> 
+    <title>Student Result Management Portal </title>
+  </head>
+  <style>
+    body{
+        background-image: url("st.png");
+        background-repeat: no-repeat;
+        background-position: 550px 100px;
+        background-color: rgb(208, 252, 248);
+        
+    }
+    .text{
+       
+        font-family: Arial, Helvetica, sans-serif;
+        width: 400px;
+        height: auto;
+        color: rgb(89, 83, 151);
+        font-size: 40px;
+        position:relative;
+        top: 10px;
+        left: 30px;
+
+    }
+    .thought{
+       
+        width: 470px;
+        height: auto;
+        position:relative;
+        top: 100px;
+        left: 30px;
+        font-size: 28px;
+
+
+    }
+  </style>
+  <body>
+    
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    
+    <ul class="nav nav-tabs" id="myTab" role="tablist" style="background-color: rgb(60, 61, 54);">
+        <li class="nav-item" role="presentation">
+          <button class="nav-link active" id="home-tab" data-bs-toggle="tab" data-bs-target="#home" type="button" role="tab" aria-controls="home" aria-selected="true">Home</button>
+        </li>
+        <li class="nav-item" role="presentation">
+          <button class="nav-link" id="profile-tab" data-bs-toggle="tab" data-bs-target="#profile" type="button" role="tab" aria-controls="result" aria-selected="false">Result</button>
+        </li>
+        <li class="nav-item" role="presentation">
+          <button class="nav-link" id="contact-tab" data-bs-toggle="tab" data-bs-target="#contact" type="button" role="tab" aria-controls="pyq" aria-selected="false">PYQs</button>
+        </li>
+        <li class="nav-item" role="presentation">
+            <button class="nav-link" id="contact-tab" data-bs-toggle="tab" data-bs-target="#contact" type="button" role="tab" aria-controls="study material" aria-selected="false">Study Material</button>
+          </li>
+        <li class="nav-item" role="presentation">
+            <button class="nav-link" id="contact-tab" data-bs-toggle="tab" data-bs-target="#contact" type="button" role="tab" aria-controls="About" aria-selected="false">About</button>
+          </li>
+          
+      </ul>
+      <div class="alert alert-warning alert-dismissible fade show" role="alert">
+        <strong>Congratulations !</strong> You have successfully registered.
+        <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+      </div>
+      
+      <div class="text">
+    <strong>RESULT  PORTAL</strong><BR>
+    
+      </div>
+      <div class="thought">
+"Forget the mistake. Remember the lesson." "Be ready to fail 'cause only then you are ready to succeed." "Stop being afraid of what could go wrong and think of what could go right."
+      </div>
+
+    
+  </body>
+</html>
