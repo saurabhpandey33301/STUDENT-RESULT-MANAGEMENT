@@ -325,6 +325,9 @@ justify-content: center;
     font-weight: bold;
     margin-top: 40px;
 }
+.info a{
+    color: white;
+}
 .info p{
    margin-top: 20px;
    /* color: white; */
