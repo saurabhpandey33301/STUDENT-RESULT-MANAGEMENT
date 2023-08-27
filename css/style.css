@@ -49,7 +49,7 @@ box-sizing: border-box;
     height: 40px;
     box-sizing: border-box;
     float: left;
-    background-image: url(../IMAGES/LOGO1.png);
+    background-image: url(../images/LOGO1.png);
     background-size: cover;
     border-radius: 10px;
   
@@ -184,7 +184,7 @@ text-align: center;
 /* content1 */
 #content{
 
-background-image: url(../IMAGES/bck.jpg);
+background-image: url(../images/bck.jpg);
 background-repeat: no-repeat;
 background-position: center;
 height:600px ;
