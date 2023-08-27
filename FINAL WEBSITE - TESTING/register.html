@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>slider_page</title>
+    <link rel="stylesheet" href="resiterstyle.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css">
+   <!-- ICONS -->
+   <script src="https://kit.fontawesome.com/d0f51abb55.js" crossorigin="anonymous"></script>
+</head>
+<body class="main">
+
+
+     <!-- NAV BAR -->
+
+    <!-- header -->
+    <div id="container">
+       
+
+        <header>
+            <!-- topbar -->
+            <div id="topbar" class="uni-padding">
+                <div id="logo">
+                    
+                </div>
+                <div id="social-icons">
+                    
+                   <i class="fa-regular fa-envelope"></i> info@iiitranchi.ac.in <br>
+                   <i class="fa-solid fa-phone"></i> Call:+917992316012
+                    
+
+                </div>
+            </div>
+            <nav id="navbar" class="uni-padding">
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="register.html">Result</a></li>
+                    
+                    <li><a href="">Pyqs</a></li>
+                    <li><a href="">Study Materials</a></li>
+                    <li><a href="">About Us</a></li>
+                    
+                </ul>
+            
+            </nav>
+            </header>
+    
+      
+    
+    
+    <div class="container py-4 min-vh-100 d-flex flex-column justify-content-center">
+        <div class="row">
+            <div class="col-xl-10 mx-auto">
+                <div class="card border-0 shadow">
+                    <div class="row no-gutters justify-content-center">
+                        <div class="col-sm-6 rounded text-white text-center">
+                            <div class="bg-danger rounded p-5 h-100 d-flex flex-column align-items-center justify-content-center">
+                                <h3 class="font-weight-bold">Hello, Friend!</h3>
+                                <p class="small my-3">Already Register,Then</p>
+                                <button type="submit" class="btn btn-outline-light rounded-pill" onclick="location.href='login.html'">Sign-in</button>
+                            </div>
+                        </div>
+                        <div class="col-sm-6 text-center py-5">
+                            <h3 class="font-weight-bold">Register</h3>
+                            <div class="d-flex my-3 justify-content-center">
+                                <a href="#" class="mx-2 btn btn-light rounded-circle"><i class="mdi mdi-facebook"></i></a>
+                                <a href="#" class="mx-2 btn btn-light rounded-circle"><i class="mdi mdi-twitter"></i></a>
+                                <a href="#" class="mx-2 btn btn-light rounded-circle"><i class="mdi mdi-linkedin"></i></a>
+                            </div>
+                            <form role="form">
+                                <div class="form-group">
+                                    <label for="inputEmailForm" class="sr-only control-label">Email</label>
+                                    <div class="col-8 col-sm-12 col-md-10 mx-auto">
+                                        <input type="text" class="form-control" 
+                                        id="inputEmailForm" placeholder="email" required="">
+                                        <div class="invalid-feedback">Oops, email is required</div>
+                                    </div>
+                                </div>
+                                <div class="form-group">
+                                    <label for="inputPasswordForm" class="sr-only control-label">Create your Password</label>
+                                    <div class="col-8 col-sm-12 col-md-10 mx-auto">
+                                        <input type="text" class="form-control" 
+                                        id="inputPasswordForm" placeholder="password" required=""
+                                        pattern="^(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{6,}$" 
+                                        autocomplete="no">
+                                        <div class="valid-feedback">Nice looks good!</div>
+                                        <div class="invalid-feedback">6 chars (1 upper, 1 lower &amp; numeric)</div>
+                                    </div>
+                                </div>
+                                <div class="form-group">
+                                    <label for="inputPasswordForm" class="sr-only control-label">Re-enter your Password</label>
+                                    <div class="col-8 col-sm-12 col-md-10 mx-auto">
+                                        <input type="text" class="form-control" 
+                                        id="inputPasswordForm" placeholder="Confirm password" required=""
+                                        pattern="^(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{6,}$" 
+                                        autocomplete="no">
+                                        <div class="valid-feedback">Nice looks good!</div>
+                                        <div class="invalid-feedback">6 chars (1 upper, 1 lower &amp; numeric)</div>
+                                    </div>
+                                </div>
+                                <div class="form-group">
+                                    <!-- <div class="mx-auto">
+                                        <a href="#" class="small text-dark">Forgot your password?</a>
+                                    </div> -->
+                                </div>
+                                <div class="form-group justify-content-center">
+                                    <div class="pb-3 pt-2">
+                                        <button type="submit" class="btn btn-danger rounded-pill">Register</button>
+                                    </div>
+                                </div>
+                            </form>
+                        </div>
+                    </div><!-- done h -->
+                    
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+        <!-- Footer -->
+<footer>
+    <div id="copyright" class="uni-padding">
+        <p>Copyright &copy; Team Achievers 2023</p>
+    </div>
+    </footer>
+
+
+    <script src="resisterjs.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
