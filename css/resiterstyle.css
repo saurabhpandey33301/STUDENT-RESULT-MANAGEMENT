@@ -17,30 +17,45 @@ a{
     opacity: 0.9;
 }
 /* The navigation bar */
-.navbar {
-    overflow: hidden;
-    background-color: #333;
-    position: fixed; /* Set the navbar to fixed position */
-    top: 0; /* Position the navbar at the top of the page */
-    width: 100%; /* Full width */
-  }
 
-  
-  /* Links inside the navbar */
-  .navbar a {
-    float: left;
-    display: block;
-    color: #f2f2f2;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
+.navbar{
+  background-color: #424342;
+  top: 0;
+  border: none;
+  width: 100%;
+ 
 }
 
-  
-  /* Change background on mouse-over */
-  .navbar a:hover {
-    background: #ddd;
-    color: black;
+.navbar ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0px;
+  /* overflow: hidden; */
+  /* background-color: #424342; */
+}
+
+.navbar ul li{
+  display: inline-block;
+  padding: 8px 0px;
+
+}
+
+
+.navbar ul li a{
+color: #BCFD4C;
+text-align: left;
+padding: 16px;
+text-decoration: none;
+font-size: 18px;
+border: none;
+display: inline;
+cursor: pointer;
+
+}
+.navbar ul li a:hover {
+  background-color: #056dbc; 
+
+  padding-bottom: 17px;
 }
   
   .block {
