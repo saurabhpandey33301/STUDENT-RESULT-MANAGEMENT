@@ -243,7 +243,10 @@ text-underline-offset: 5px;
     
 }
 .section25 img{
-    max-width: 60%;
+    
+    height: 250px;
+    width: 270px;
+    border-radius: 16px;
 }
 .section25 h3{
     text-decoration: underline;
