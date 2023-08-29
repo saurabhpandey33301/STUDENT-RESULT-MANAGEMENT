@@ -3,7 +3,7 @@ body{
     padding: 0px;
     background-repeat: no-repeat;
     background-position: 550px 100px;
-    background-color: rgb(208, 252, 248);
+    background-color: rgb(176, 173, 173);
     
 }
 
@@ -41,12 +41,12 @@ body{
 .btn button{
     margin: 0px 10px;
     widows: 200px;
-    border: 3px solid rgb(52, 170, 160);
+    border: 3px solid #BCFD4C;
     border-radius: 12px;
     background: none;
 }
 .btn button:hover{
-    box-shadow: 6px 6px 5px rgb(52, 170, 160);
+    box-shadow: 6px 6px 5px #BCFD4C;
     text-decoration: none;
     
 }
