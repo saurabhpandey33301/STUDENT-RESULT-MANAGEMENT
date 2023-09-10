@@ -1,0 +1,51 @@
+body{
+    background-image: url(background.jpeg);
+}
+.studynav{
+    height: 100px;
+    width: 100%;
+    background-color:rgb(146, 179, 246);
+    border: 1px solid black;
+    text-align: center;
+    text-shadow: 2px 1px;
+}
+
+#namespecify{
+    text-shadow: none;
+    font-weight: bold;
+    font-size: large;
+}
+#logo{
+    height:89px ;
+    position: absolute;
+    right: 60px;
+    top: 12px;
+}
+
+#semesterhd1{
+    text-align: center;
+    font-weight: bold;
+    font-size: 18px;
+    text-decoration: underline;
+}
+
+#tablelist{
+    border: 2px solid black;
+    width: 100%;
+}
+
+td, th {
+    border: 1px solid black;
+    text-align: center;
+    padding: 6px;
+  }
+
+tr{
+    background-color:  #dddddd;
+}
+
+#eyelogo{
+    position: absolute;
+    top: 28%;
+    right: 80px;
+}
